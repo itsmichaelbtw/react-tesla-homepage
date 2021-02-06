@@ -1,24 +1,149 @@
+@font-face {
+    font-family: "iCielMedium";
+    src: local("iCielMedium"), url("../fonts/iCiel-Medium.ttf") format("truetype");
+    font-weight: normal
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "iCielMedium";
 }
 
 #root {
     height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+
     width: 100%;
-    background-color: #34495E;
+    min-width: 900px
 }
 
-.title {
-    position: relative;
-    display: inline-block;
-    font-size: 22px;
+.header {
+    display: flex;
+    background-color: transparent;
+    background: none;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    padding: 15px;
+    z-index: 100
+}
+
+.header .logo {
+    width: 100px;
+    margin-top: 9px;
+}
+
+.header .logo > img {
+    height: 18px
+}
+
+.header .center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header .center > p {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.header .right {
+    display: flex;
+    justify-content: flex-end;
+    text-transform: uppercase;
+}
+
+.header .right > p {
+    margin: 10px
+}
+
+.tesla-item-container {
+    scroll-snap-type: y mandatory;
+    overflow: auto;
+    height: 100vh
+}
+
+.tesla-item {
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: start;
+}
+
+.tesla-item .item-container {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tesla-item .item-text {
+    margin-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    font-size: 34px;
+    color: #393c41
+}
+
+.tesla-item .item-desc {
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.tesla-item .item-footer {
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+.tesla-item .item-interact {
+    display: flex;
+}
+
+.tesla-item .item-expand {
     color: white;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 100%;
+    margin-top: 3%;
+    justify-content: center;
 }
+
+.tesla-item .item-button {
+    background-color: rgba(23, 26, 32, 0.8);
+    height: 40px;
+    width: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    opacity: 0.85;
+    margin: 0 12px
+}
+
+.tesla-item .item-button > a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tesla-item .item-button.white {
+    background-color: white;
+    opacity: 0.65;
+}
+
+.tesla-item .item-button.white > a {
+    color: black
+}
+

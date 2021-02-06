@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/assets/css/main.f52291df.css",
+    "main.js": "/assets/js/main.4136aceb.js",
+    "main.ttf": "/assets/media/iCiel-Medium.b23bb62d.ttf",
+    "main.jpg": "/assets/media/Desktop-Accessories.027ada94.jpg",
+    "main.jpeg": "/assets/media/Desktop-SolarRoof.9eb2e602.jpeg",
+    "main.svg": "/assets/media/teslaLogoSmall.a7b59bc6.svg",
+    "runtime-main.js": "/assets/js/runtime-main.d3d1931d.js",
+    "vendors.js": "/assets/js/vendors.e115689d.js",
+    "assets/media/Desktop-SolarRoof.jpeg": "/assets/media/Desktop-SolarRoof.9eb2e602.jpeg",
+    "assets/media/Desktop-SolarPanels.jpeg": "/assets/media/Desktop-SolarPanels.d7d441d7.jpeg",
+    "assets/media/Desktop-ModelX.jpeg": "/assets/media/Desktop-ModelX.83417303.jpeg",
+    "assets/media/Desktop-ModelS.jpeg": "/assets/media/Desktop-ModelS.e3d22a07.jpeg",
+    "assets/media/Desktop-ModelY.jpeg": "/assets/media/Desktop-ModelY.30acb76a.jpeg",
+    "assets/media/Desktop-Model3.jpeg": "/assets/media/Desktop-Model3.30651f79.jpeg",
+    "assets/media/iCiel-Medium.ttf": "/assets/media/iCiel-Medium.b23bb62d.ttf",
+    "assets/media/Desktop-Accessories.jpg": "/assets/media/Desktop-Accessories.027ada94.jpg",
+    "assets/media/teslaLogoSmall.svg": "/assets/media/teslaLogoSmall.a7b59bc6.svg"
+  },
+  "entrypoints": [
+    "assets/js/runtime-main.d3d1931d.js",
+    "assets/js/vendors.e115689d.js",
+    "assets/css/main.f52291df.css",
+    "assets/js/main.4136aceb.js"
+  ]
+}
